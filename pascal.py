@@ -6,7 +6,7 @@ def gen(n, r=None):
         r = [1 if i == 0 or i == length_r else r[i - 1] + r[i] for i in range(length_r + 1)]
         yield r
 
-
+#hayo mau ngapain mau copas ya!!
 def draw(n):
     for p in gen(n):
         print(' '.join(map(str, p)).center(n * 2) + '\n')
@@ -29,11 +29,7 @@ def mengetik(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
-#kecepatan mengetik
         time.sleep(random.random() * 0.2)
-#ubah angka 0.1 sesuai keinginan kamu
-#angka terkecil adalah yang paling cepat
-#angka terbesar adalah yang paling lambat
 mengetik('Script Ini Di Buat Oleh Hamzah')
 
 import random
@@ -43,9 +39,5 @@ def mengetik(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
-#kecepatan mengetik
         time.sleep(random.random() * 0.2)
-#ubah angka 0.1 sesuai keinginan kamu
-#angka terkecil adalah yang paling cepat
-#angka terbesar adalah yang paling lambat
 mengetik('follow ig ku yak @hamzah080208')
