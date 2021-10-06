@@ -7,6 +7,8 @@ def gen(n, r=None):
         yield r
 
 #hayo mau ngapain mau copas ya!!
+#jangan sekali sekali sekali copas lu 
+#yang copas tak daoin hidupnya sengsara 7 turunan
 def draw(n):
     for p in gen(n):
         print(' '.join(map(str, p)).center(n * 2) + '\n')
