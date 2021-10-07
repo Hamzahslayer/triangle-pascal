@@ -54,5 +54,5 @@ def mengetik(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(random.random() * 0.2)
-mengetik(merah+ 'follow ig ku yak 👇')
+mengetik hijau+('@hamzah080208')
 
