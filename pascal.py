@@ -18,19 +18,9 @@ def draw_beautiful(n):
     ps = list(gen(n))
     max_val = len(' '.join(map(str, ps[-1])))
     for p in ps:
-        print(' '.join(map(str, p)).center(max_val) + '\n'
-        
-        import random
-import sys
-import time
-def mengetik(s):
-    for c in s + '\n':
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(random.random() * 0.2)
-mengetik('Jumlah baris segitiga pascal')
-        
-HAMZAH = int(input(": "))
+        print(' '.join(map(str, p)).center(max_val) + '\n')
+
+HAMZAH = int(input("Jumlah baris segitiga pascal yang kamu mau?: "))
 
 draw_beautiful(HAMZAH)
 
