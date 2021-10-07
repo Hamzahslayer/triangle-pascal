@@ -34,6 +34,8 @@ def mengetik(s):
         time.sleep(random.random() * 0.2)
 mengetik('Script Ini Di Buat Oleh Hamzah')
 
+hijau="33[0;32m"
+
 import random
 import sys
 import time
@@ -42,4 +44,15 @@ def mengetik(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(random.random() * 0.2)
-mengetik('follow ig ku yak @hamzah080208')
+mengetik('follow ig ku yak 👇')
+
+import random
+import sys
+import time
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.2)
+mengetik(merah+ 'follow ig ku yak 👇')
+
