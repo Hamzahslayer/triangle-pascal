@@ -20,9 +20,9 @@ def draw_beautiful(n):
     for p in ps:
         print(' '.join(map(str, p)).center(max_val) + '\n')
 
-N = int(input("Jumlah baris segitiga pascal : "))
+HAMZAH = int(input("Jumlah baris segitiga pascal yang kamu mau?: "))
 
-draw_beautiful(N)
+draw_beautiful(HAMZAH)
 
 import random
 import sys
@@ -33,8 +33,6 @@ def mengetik(s):
         sys.stdout.flush()
         time.sleep(random.random() * 0.2)
 mengetik('Script Ini Di Buat Oleh Hamzah')
-
-hijau="33[0;32m"
 
 import random
 import sys
